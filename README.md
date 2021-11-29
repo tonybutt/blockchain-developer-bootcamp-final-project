@@ -35,9 +35,9 @@ I would like my NFT Certificat sent here: *0x1a153dcba4dcE094dc0Bc5b502701c457E9
 1. dynamically create NFT with data gathered from the dApp to ensure uniqueness
 
 ## Project Information
-- Avoiding attack vectors discussion can be found [here](common-attack-vectors.md)
-- Design pattern choices can be found [here](design-patterns.md)
-- The deployed ***Robsten*** address can be found [here](deployed_address.txt)
+- Avoiding attack vectors discussion can be found [here](docs/common-attack-vectors.md)
+- Design pattern choices can be found [here](docs/design-patterns.md)
+- The deployed ***Robsten*** address can be found [here](docs/deployed_address.txt)
 
 ## Directory Navigation
 You can find the frontend code in the **client** directory.
@@ -45,8 +45,8 @@ From the ***client*** directory:
 - Install Dependencies `yarn install`
 - Start Development Server `yarn start`
 
-You can find the contract code in the ***root*** directory.
-From the ***root*** directory:
+You can find the contract code in the ***contract*** directory.
+From the ***contract*** directory:
 - Install dependencies `npm install`
 - Start Ganche and `truffle migrate` or run `truffle develop`
 
@@ -60,9 +60,12 @@ export const useSecureCode = () => {
   const contract = useContract(secureCodeContractAddr, SECURE_CODE_ABI);
 ...
 ```
+
+NFT MetaData is stored within the nft directory
+The docs directory contains all the documentation for the applicaion
 ## Unit Testing
 
-The unit tests are contained in the file at: *GrantMgmt/test/grant_manager.js*.
+The unit tests are contained in the file at: *contract/test/grant_manager.js*.
 
 Ensure the file '*truffle-config.js*' has the following settings to set the port to **7545**:
 
