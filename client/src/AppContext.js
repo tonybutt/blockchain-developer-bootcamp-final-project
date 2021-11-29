@@ -20,7 +20,6 @@ const initialContext = {
 };
 
 const appReducer = (state, { type, payload }) => {
-  console.log("Setting State", type, payload);
   switch (type) {
     case "SET_ALL_PIPELINES":
       return {
