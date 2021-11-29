@@ -66,7 +66,7 @@ NFT MetaData is stored within the nft directory
 The docs directory contains all the documentation for the applicaion
 ## Unit Testing
 
-The unit tests are contained in the file at: *contract/test/grant_manager.js*.
+The unit tests are contained in the file at: *contract/test/secure_code_test.js*.
 
 Ensure the file '*truffle-config.js*' has the following settings to set the port to **7545**:
 
@@ -95,7 +95,7 @@ Ensure the file '*truffle-config.js*' has the following settings to set the Soli
 
 Spin up an instance of Ganache and select "**New Workspace (Ethereum)**."
 
-Click "Add Project" and select the *truffle-config.js* file from the GrantMgmt folder. Then select "**Save Workspace**" to start the local host.
+Click "Add Project" and select the *truffle-config.js* file from the ***contract*** folder. Then select "**Save Workspace**" to start the local host.
 
 To run all tests, simply run: `truffle test`
 
