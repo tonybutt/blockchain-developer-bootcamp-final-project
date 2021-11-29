@@ -1,0 +1,4 @@
+Contain a `deployed_address.txt` file which contains the testnet address and network where your contract(s) have been deployed
+
+Testnet Address: 0xF8EB359847E1ACeF7d0208ACdb0D1EE0a9eD3B82
+Network: Ropsten

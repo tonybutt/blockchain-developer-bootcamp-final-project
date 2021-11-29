@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Secure",
+      "value": "true"
+    },
+    {
+      "trait_type": "Who",
+      "value": "Cheeks"
+    }
+  ],
+  "description": "Cheeks' Code Approval Pass",
+  "image": "https://gateway.pinata.cloud/ipfs/QmaSQozcPEbatWpSqPcU5YtWQhaKuntRGd8An1nPqX9nqK",
+  "name": "Cheeks Certified Secure Code"
+}
