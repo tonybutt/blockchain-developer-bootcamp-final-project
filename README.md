@@ -2,6 +2,7 @@
 **Author: Anthony Butt (Cheeks)**
 
 # Dependencies
+- A [MetaMask Wallet](https://metamask.io/download.html)
 - [Node](https://nodejs.org/en/download/)
   - npm comes with node
 - [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
@@ -97,3 +98,44 @@ Spin up an instance of Ganache and select "**New Workspace (Ethereum)**."
 Click "Add Project" and select the *truffle-config.js* file from the GrantMgmt folder. Then select "**Save Workspace**" to start the local host.
 
 To run all tests, simply run: `truffle test`
+
+## Deployment Locations
+My dApp is hosted on Netlify at [abutt.io](https://abutt.io)
+My deployed contract on the Robsten Network is ***0xF8EB359847E1ACeF7d0208ACdb0D1EE0a9eD3B82***
+
+## Test my Application
+**Requirements**:
+- A valid [gitlab.com](gitlab.com) project ID that has a configured ci/cd pipeline
+  - [Here](https://gitlab.com/tonybutt/blockchain-demo-pipeline) is my canned example repository
+    - **Project ID**: 31670040
+
+**Steps**:
+1. Paste Gitlab Project ID into the Gitlab Project ID field
+2. Click Submit
+3. Approve transaction with MetaMask Wallet
+4. Wait
+5. See your successful transaction when the Pipelines you've submitted table is populated
+
+![](docs/screenshots/SubmitCode.png)
+
+**Advanced**
+1. Deploy my smart contract from your own wallet
+2. This will give your user owner area access
+3. You will see a list of all submitted pipelines by owner
+4. You will be allowed to approve their pipelines and by proxy their code  
+
+![](docs/screenshots/ApprovePipeline.png)
+
+5. Once approved you may Mint the Owner a NFT
+
+![](docs/screenshots/MintNFT.png)
+
+6. Once you have the NFT in your wallet you will gain access to the Deployment Area :D
+
+![](docs/screenshots/Deployment.png)
+
+## Troubleshooting
+
+Generally the app will fail to load state at times. Just reload until it behaves as expected. This is likely due to not waiting long enough for promises to resolve before rendering elements. I will fix this eventually.
+
+Routing is messy on Netlify return to [abutt.io](abutt.io) if you page won't load from Netlify issues.
