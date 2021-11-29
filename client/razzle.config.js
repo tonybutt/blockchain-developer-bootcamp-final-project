@@ -10,6 +10,11 @@ module.exports = {
     // if (opts.env.target === 'node' && !opts.env.dev) {
     config.node = { fs: 'empty' };
     // }
+    config.performance = {
+      hints: false,
+      maxEntrypointSize: 812000,
+      maxAssetSize: 812000
+    }
 
     return config;
   },
