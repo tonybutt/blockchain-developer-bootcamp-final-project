@@ -1,6 +1,6 @@
 {
-  "name": "consensys-hackathon-build-a-dapp",
-  "version": "1.0.0",
+  "name": "Cheeks-Code-Approval-dApp",
+  "version": "0.0.1",
   "license": "UNLICENSED",
   "scripts": {
     "start": "razzle start",
