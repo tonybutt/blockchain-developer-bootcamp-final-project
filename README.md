@@ -36,8 +36,8 @@ I would like my NFT Certificat sent here: *0x1a153dcba4dcE094dc0Bc5b502701c457E9
 1. dynamically create NFT with data gathered from the dApp to ensure uniqueness
 
 ## Project Information
-- Avoiding attack vectors discussion can be found [here](docs/common-attack-vectors.md)
-- Design pattern choices can be found [here](docs/design-patterns.md)
+- Avoiding attack vectors discussion can be found [here](docs/avoiding_common_attacks.md)
+- Design pattern choices can be found [here](docs/design_pattern_decisions.md)
 - The deployed ***Robsten*** address can be found [here](docs/deployed_address.txt)
 
 ## Directory Navigation
@@ -139,3 +139,5 @@ My deployed contract on the Robsten Network is ***0xF8EB359847E1ACeF7d0208ACdb0D
 Generally the app will fail to load state at times. Just reload until it behaves as expected. This is likely due to not waiting long enough for promises to resolve before rendering elements. I will fix this eventually.
 
 Routing is messy on Netlify return to [abutt.io](abutt.io) if you page won't load from Netlify issues.
+
+## Check out my [Screencast]()

@@ -1,4 +1,4 @@
-# Four Design Patterns Used:
+# Three Design Patterns Used:
 
 In my project, I have inherited from OpenZeppelin's contract library which is built on a solid foundation of community-vetted code.
 
